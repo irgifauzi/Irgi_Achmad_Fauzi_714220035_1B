@@ -1,0 +1,230 @@
+/*memberikan style keseluruhan*/
+
+* {
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper{
+	width: 1100px;
+	margin: auto;
+	position: relative;
+}
+
+.logo {
+	font-size: 50px;
+	font-weight: 800px;
+	float: left;
+	font-family: 'Courier New',Courier,monospace;
+	color: blue;
+}
+
+.menu {
+	float: right;
+}
+
+nav {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	line-height: 80px;
+	/*agar nav selalu tampil*/
+	position: sticky;
+	position: -webkit -sticky;
+	top: 0;
+	background: cyan;
+	z-index: 1;
+	border-bottom: 1px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav ul li{
+	float: left;
+}
+
+nav ul li a {
+	color: deeppink;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px 16px 0px 16px;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+section {
+	margin: auto;
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.kolom {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'comic sans ms';
+	color: firebrick;
+}
+
+
+h2 {
+	font-family: 'comic sans ms';
+	font-weight: 800;
+	font-size: 45px;
+	margin-bottom: 20px;
+	color: black;
+	width: 100%;
+	line-height: 50px;
+}
+
+a.tbl-biru{
+	background: burlywood;
+	border-radius: 20px;
+	margin-top: 20px;
+	padding: 15px 20px 15px 20px;
+	color: #ffffff;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+a.tbl-biru:hover{
+	background-color: darkorange;
+}
+
+a.tbl-pink{
+	background: darkviolet;
+	border-radius: 20px;
+	margin-top: 20px;
+	padding: 15px 20px 15px 20px;
+	color: #ffffff;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+a.tbl-pink:hover {
+	background-color: #9900F0;
+}
+
+p{
+	margin: 10px 0px 10px 0px;
+	padding: 10px 0px 10px 0px;
+}
+
+/*style CSS mahasiswa*/
+
+.tengah {
+	text-align: center;
+	width: 100%;
+}
+
+.listmhs {
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cardmhs {
+	width: 20%;
+	margin: 0 auto;
+}
+
+.cardmhs img {
+	width: 80%;
+	border-radius: 50%;
+}
+
+.cardmhs p {
+	font-family: 'comic sans ms';
+	font-weight: 800;
+	font-size: 25px;
+	text-align: center;
+	color: #5C2E7E;
+}
+
+/*style CSS jadwal*/
+
+table {
+	width: 100%;
+	border: 1px solid;
+	border-collapse: collapse;
+}
+
+th{
+	border: 1px solid;
+}
+
+table tr td{
+	border: 1px solid;
+}
+
+
+th{
+	background-color: mediumspringgreen;
+	color: #ffffff;
+}
+
+.quote {
+	font-size: 40px;
+	text-decoration-line: underline;
+}
+
+* {box-sizing: border-box}
+
+.container {
+  padding: 16px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Style CSS tombol sign up*/
+.registerbtn {
+  background-color: #00ff33;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
